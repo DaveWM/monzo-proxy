@@ -21,4 +21,5 @@
   (wrap-defaults app-routes
                  (merge api-defaults
                         {:params {:keywordize true
-                                  :urlencoded true}})))
+                                  :urlencoded true}
+                         :session false})))
